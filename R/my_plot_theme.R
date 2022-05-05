@@ -1,11 +1,11 @@
 
 #' My theme for a 7.5 by 5 inch plot
 #'
-#' @return themed ggplot
+#' @return theme ggplot
 #' @export
 #' @import ggplot2
-#' @example
-my_plot_theme <- man/my_plot_theme_example.R
+#' @example man/my_plot_theme_example.R
+my_plot_theme <-
   function(){
     theme(axis.title = element_text(size = 14),
           plot.title = element_text(size = 16),
